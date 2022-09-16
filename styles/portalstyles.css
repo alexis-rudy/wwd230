@@ -5,12 +5,34 @@ header{
 
 .box{
     border-radius: 25px;
-    background-color: 925487
+    background-color: 925487;
+    width: 100%;
 }
 
 h1{
     font-size: 5em;
 }
+main{
+    align-content: center;
+}
+.portalcontent{
+    align-content: center;
+    margin-left: 3em;
+}
+.portalcontent .portaltitle{
+    text-align: center;
+    font-size: 3em;
+}
+ul{
+    background-color: #F3DFBF;
+    padding-top: 10;
+    padding-bottom: 10;
+    border-radius: 15px;
+}
+ul li{
+    font-size: 20px;
+}
+
 p{
     text-align: center;
 }
