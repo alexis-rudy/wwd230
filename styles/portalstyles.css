@@ -1,0 +1,16 @@
+header{
+    margin: 2em;
+    align-content: center;
+}
+
+.box{
+    border-radius: 25px;
+    background-color: 925487
+}
+
+h1{
+    font-size: 5em;
+}
+p{
+    text-align: center;
+}
