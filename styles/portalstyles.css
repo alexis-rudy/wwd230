@@ -13,8 +13,8 @@ header{
     border-radius: 25px;
     background-color: 925487;
     width: 100%;
-    padding-top: 20;
-    padding-bottom: 20;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #bigbox{
     display: flex;
@@ -39,8 +39,8 @@ hr{
 }
 ul{
     background-color: #c3acca;
-    padding-top: 10;
-    padding-bottom: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 15px;
     width: 93%;
     box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
