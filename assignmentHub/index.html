@@ -44,25 +44,7 @@
             <p>Last Updated: <span id="lastmod"></span></p>
         </section>
     </footer>
-    <script>
-        try {
-            const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
-            const newdate = new Date().toLocaleDateString('en-US', options);
-            const newyear = new Date().getFullYear();
-            justyear = newyear;
-            let printyear = document.querySelector('#yearspan');
-            printyear.innerHTML = justyear;
-    
-        }
-        catch (e) {
-            alert = "error"
-        }
-
-        const oLastModif = new Date(document.lastModified);
-        const mod = document.getElementById('lastmod');
-        mod.innerHTML = oLastModif;
-
-    </script>
+    <script src="../script/portal.js"></script>
 </body>
 
 </html>

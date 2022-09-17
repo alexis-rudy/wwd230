@@ -1,8 +1,14 @@
-const year1 = document.querySelector('#yearspan');
-try{
-    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-    year1.innerHTML = new Date().toLocaleDateString('en-US', options);}
-    catch (e){
-        alert = "error"
-    }
+try {
+    const newyear = new Date().getFullYear();
+    justyear = newyear;
+    let printyear = document.querySelector('#yearspan');
+    printyear.innerHTML = justyear;
 
+}
+catch (e) {
+    alert = "error"
+}
+
+const oLastModif = new Date(document.lastModified);
+const mod = document.getElementById('lastmod');
+mod.innerHTML = oLastModif;
