@@ -7,8 +7,13 @@ header{
     border-radius: 25px;
     background-color: 925487;
     width: 100%;
+    padding-top: 20;
+    padding-bottom: 20;
 }
-
+#bigbox{
+    display: flex;
+    justify-content: space-around;
+}
 h1{
     font-size: 5em;
 }
