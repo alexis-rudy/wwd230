@@ -1,0 +1,34 @@
+@media only screen and (min-width: 32.5em){
+    html{
+        margin: auto;
+    }
+    h1{
+        font-size: 5em;
+        padding-left: 0%;
+    }
+    ul{
+        background-color: #c3acca;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+        width: 80%;
+        box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .portalcontent{
+        align-content: center;
+        margin-left: 0em;
+    }
+    .portalcontent .portaltitle{
+        text-align: center;
+        font-size: 3em;
+    }
+    #bigbox{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer{
+        font-size: 1.5rem
+    }
+}
