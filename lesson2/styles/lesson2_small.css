@@ -1,0 +1,43 @@
+header{
+    background-color: #B7D1DA;
+    text-align: left;
+    padding: 1.5rem;
+    max-width: 100%;
+}
+header h1{
+    font-size: 3rem;
+}
+header h2{
+    font-size: 1.5rem;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+}
+section{
+    background-color: #7b3535;
+    
+    align-items: center;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+section h3{
+   font-size: 1.5rem;
+   color: black; 
+   background-color: aliceblue;
+   text-align: center;
+}
+section img{    
+    padding: 10%;
+    width: 300px;
+}
+footer{
+    background-color: #B7D1DA;
+    font-size: 1.5;
+    width: 100%;
+
+}
