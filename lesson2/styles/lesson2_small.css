@@ -15,8 +15,8 @@ main{
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
     justify-content: space-evenly;
-    margin-left: 70px;
     grid-column-gap: 20px;
+    margin-top: 20px;
 }
 section{
     background-color: #7b3535;
@@ -33,6 +33,7 @@ section h3{
 section img{    
     size: 80%;
     width: fit-content;
+    align-content: center;
 }
 .paragraph{
    font-size: 1rem;
