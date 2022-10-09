@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nampa Chamber of Commerce</title>
-    <link href="styles/small.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nampa Chamber of Commerce</title>
+        <link href="styles/small.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
+    </head>
 <body>
     <header>
         <a><img src="#" alt="logo"></a>
+        <section>
+            <h2>Nampa</h2>
+            <h3>Chamber of Commerce</h3>
+        </section>
+        <a href="facebook.com"><img src="#" alt="facebook"></a>
+        <a href="indeed.com"><img src="#" alt="indeed"></a>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
             <ul>
@@ -18,13 +26,15 @@
                 <li><a href='#'>Join</a></li>
                 <li><a href='#'>Contact</a></li>
             </ul>
+            <section><span id="currentDate"></span></section>
         </nav>
     </header>
     <main>
-        <div id="event"></div>
-        <div id="weather"></div>
+        <div id="event">Event</div>
+        <div id="weather">Weather</div>
         <div id="join"></div>
-        <div id="hero"></div>
+        <div id="hero">Hero with site name and call to action</div>
+        <div id="news">News Release</div>
         <section id="spotlight">
             <div id="sl1"></div>
             <div id="sl2"></div>
@@ -32,17 +42,20 @@
         </section>
     <footer>
         <img src="#" alt="logo">
-        <div></div>
-        <div></div>
+        <section>
+            <h3>Nampa Chamber of Commerce</h3>
+            <p>880 W Starview Ct</p>
+            <p>Nampa, Idaho 83686</p>
+        </section>
+        <section>
+            <a href="#">info@nampacc.com</a>
+        </section>
         <hr>
         <div>
             &copy; <span id="yearspan"></span>| Alexis Rudy |
             WDD 230 Project | Last Updated: <span id="lastmod"></span>
         </div>
     </footer>
-    <script src="styles/small.css"></script>
-    <script src="styles/medium.css"></script>
-    <script src="styles/large.css"></script>
     </main>
 </body>
 </html>
