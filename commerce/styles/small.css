@@ -1,8 +1,25 @@
 header{
     width: 100%;
     background-color: rgb(2, 97, 2);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+header .top{
+    display: flex;
+    align-items: center;
+}
+.titles{
+    font-size: 1.5rem;
+}
+header .socials{
+    display: flex;
+    align-content: flex-end;
+    padding-left: 20px;
+
 }
 nav button{
+    margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
@@ -33,4 +50,16 @@ nav ul li a:hover{
 }
 #hamBtn.open span:nth-child(2){
     display: block;
+}
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display:block;
+}
+
+.date{
+    background-color: rgba(9, 155, 9, 0.5);
+    padding: 1.2rem;
+    font-size: 1.3rem;
 }

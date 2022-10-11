@@ -3,7 +3,9 @@
 header{
     display: flex;
 }
-nav button {display: none;}
+nav button {
+    display: none;
+}
 
 nav ul#primaryNav {
     display: flex;

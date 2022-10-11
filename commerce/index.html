@@ -11,23 +11,27 @@
     </head>
 <body>
     <header>
-        <a><img src="#" alt="logo"></a>
-        <section>
+        <div class="top">
+        <a><img src="index.html" alt="logo"></a>
+        <section class="titles">
             <h2>Nampa</h2>
             <h3>Chamber of Commerce</h3>
         </section>
-        <a href="facebook.com"><img src="#" alt="facebook"></a>
-        <a href="indeed.com"><img src="#" alt="indeed"></a>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
-            <ul>
+            <ul id="primaryNav">
                 <li><a href='#'>Discover</a></li>
                 <li><a href='#'>Directory</a></li>
                 <li><a href='#'>Join</a></li>
                 <li><a href='#'>Contact</a></li>
             </ul>
-            <section><span id="currentDate"></span></section>
         </nav>
+        <section class="socials">
+            <a href="facebook.com"><img src="#" alt="facebook"></a>
+            <a href="indeed.com"><img src="#" alt="indeed"></a>
+        </section>
+    </div>
+        <section class="date">Current Date: <span id="currentDate"></span></section>
     </header>
     <main>
         <div id="event">Event</div>
@@ -40,6 +44,7 @@
             <div id="sl2"></div>
             <div id="sl3"></div>
         </section>
+    </main>
     <footer>
         <img src="#" alt="logo">
         <section>
@@ -56,6 +61,6 @@
             WDD 230 Project | Last Updated: <span id="lastmod"></span>
         </div>
     </footer>
-    </main>
+    <script src="script/motions.js"></script>
 </body>
 </html>
