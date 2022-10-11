@@ -1,16 +1,23 @@
-//set current date
-const date = new Date();
-const full_date = new Intel.DateTimeFormat('en-Us', {dateStyle: 'full'}).format(date);
-document.querySelector('#currentDate').textContent = full_date;
+//get current date
+const day = new Date();
 
-//set last modified
-document.querySelector('#lastmod').innerHTML = document.lastModified;
+//months for current date format
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednsday',
+'Thursday', 'Friday', 'Saturday']
+const months = ['January', 'Feburary', 'March', 'April',
+'May', 'June', 'July', 'Augst', 'September', 'October',
+'November', 'December'];
 
-// toggle menu in small view
-function toggleMenu(){
-    document.getElementById('primaryNav').classList.toggle('open');
-    document.getElementById('hamBtn').classList.toggle('open');
+const today = days[day.getDay()];
+const date = day.getDay();
+const month = months[day.getMonth()];
+const year = day.getFullYear();
+document.getElementById('currentDate').textContent = `${today},
+ ${date} ${month} ${year}`;
 
-}
-const x = document.getElementById('hamBtn');
-x.onclick = toggleMenu;
+//create year
+document.getElementById('yearspan').textContent = year;
+
+//create last modified
+const lastMod = document.lastModified;
+document.getElementById('lastmod').textContent = lastMod;
