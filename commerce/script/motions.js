@@ -1,13 +1,14 @@
 //get current date
 const day = new Date();
 
-//months for current date format
+//months and days for current date format
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednsday',
 'Thursday', 'Friday', 'Saturday']
 const months = ['January', 'Feburary', 'March', 'April',
 'May', 'June', 'July', 'Augst', 'September', 'October',
 'November', 'December'];
 
+//setting current date format
 const today = days[day.getDay()];
 const date = day.getDay();
 const month = months[day.getMonth()];
