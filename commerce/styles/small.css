@@ -1,3 +1,10 @@
+hr{
+    color: black;
+    border-color: black;
+}
+img{
+    width: 10rem;
+}
 header{
     width: 100%;
     background-color: rgb(2, 97, 2);
@@ -16,7 +23,9 @@ header .socials{
     display: flex;
     align-content: flex-end;
     padding-left: 20px;
-
+}
+header .socials img{
+    width: 3rem;
 }
 nav button{
     margin: .2rem 2vw;
@@ -57,9 +66,19 @@ nav ul {
 nav ul.open{
     display:block;
 }
+main{
+    display: block;
+}
 
 .date{
     background-color: rgba(9, 155, 9, 0.5);
     padding: 1.2rem;
     font-size: 1.3rem;
+}
+.date #currentDate{
+    text-align: center;
+    color: brown;
+}
+footer{
+    background-color: rgb(2, 97, 2);
 }
