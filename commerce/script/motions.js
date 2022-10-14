@@ -2,10 +2,10 @@
 const day = new Date();
 
 //months and days for current date format
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednsday',
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday',
 'Thursday', 'Friday', 'Saturday']
-const months = ['January', 'Feburary', 'March', 'April',
-'May', 'June', 'July', 'Augst', 'September', 'October',
+const months = ['January', 'February', 'March', 'April',
+'May', 'June', 'July', 'August', 'September', 'October',
 'November', 'December'];
 
 //setting current date format
