@@ -22,3 +22,14 @@ document.getElementById('yearspan').textContent = year;
 //create last modified
 const lastMod = document.lastModified;
 document.getElementById('lastmod').textContent = lastMod;
+
+//responsive dropdown menu
+function toggleMenu(){
+    document.getElementById('primaryNav').classList.toggle('open');
+    document.getElementById('hamBtn').classList.toggle('open');
+
+}
+let x = document.getElementById('hamBtn');
+x.onclick = toggleMenu;
+
+//change the button to a x when dropdown is open
