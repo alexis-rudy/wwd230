@@ -48,6 +48,12 @@ nav ul li a{
 nav ul li a:hover{
     background-color: rgba(0, 0, 0, .3);
 }
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display:block;
+}
 #hamBtn span:nth-child(1){
     display: block;
 }
@@ -60,26 +66,24 @@ nav ul li a:hover{
 #hamBtn.open span:nth-child(2){
     display: block;
 }
-nav ul {
-    display: none;
-}
-nav ul.open{
-    display:block;
-}
-main{
-    display: block;
-}
 
 .date{
     background-color: rgba(9, 155, 9, 0.5);
     padding: 1.2rem;
     font-size: 1.3rem;
-}
-.date #currentDate{
     text-align: center;
-    color: brown;
+}
+main{
+    display: block;
+    text-align: center;
+}
+#spotlight{
+    background-color: rgba(9, 155, 9);
+}
+#spotlight #sl3{
+    display: none;
 }
 footer{
     background-color: rgb(2, 97, 2);
-    align-items: center;
+    text-align: center;   
 }

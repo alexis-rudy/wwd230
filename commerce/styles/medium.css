@@ -17,8 +17,12 @@ nav ul li a {
 .date{
     display: block;
 }
-
-
+main{
+    display: grid;
+}
+#spotlight #sl3{
+    display: block;
+}
 
 
 

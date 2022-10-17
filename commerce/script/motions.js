@@ -10,7 +10,7 @@ const months = ['January', 'February', 'March', 'April',
 
 //setting current date format
 const today = days[day.getDay()];
-const date = day.getDay();
+const date = day.getDate();
 const month = months[day.getMonth()];
 const year = day.getFullYear();
 document.getElementById('currentDate').textContent = `${today},
