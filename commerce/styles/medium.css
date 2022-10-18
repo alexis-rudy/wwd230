@@ -19,6 +19,7 @@ nav ul li a {
 }
 main{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #spotlight #sl3{
     display: block;
