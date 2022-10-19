@@ -1,19 +1,4 @@
 @media only screen and (min-width: 40rem){
-nav{
-    background-color: rgba(9, 155, 9, 0.5);
-}
-nav ul#primaryNav{
-    display: flex;
-    justify-content: flex-start;
-}
-nav button {
-    display: none;
-}
-
-nav ul li a {
-    border: none;
-    
-}
 .date{
     display: block;
 }
