@@ -41,4 +41,14 @@ main #spotlight{
 footer{
     padding-bottom: 30px;
 }
+footer #upper{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer #address{
+    text-align: left;
+}
+footer #emnum{
+    padding-top: 20px;
+}
 }
