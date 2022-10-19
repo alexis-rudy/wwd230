@@ -23,27 +23,22 @@ main{
     grid-template-rows: 1fr 1fr 1fr;
 }
 main #event{
-    background-color: aquamarine;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 main #weather{
-    background-color: yellow;
     grid-column: 1/2;
     grid-row: 2/3;
 }
 main #join{
-    background-color: blueviolet;
     grid-column: 1/2;
     grid-row: 3/4;
 }
 main #hero{
-    background-color: red;
     grid-column: 2/3;
     grid-row: 1/3;
 }
 main #news{
-    background-color: orange;
     grid-column: 2/3;
     grid-row: 3/4;
 }
