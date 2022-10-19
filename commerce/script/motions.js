@@ -16,6 +16,12 @@ const year = day.getFullYear();
 document.getElementById('currentDate').textContent = `${today},
  ${date} ${month} ${year}`;
 
+//create join us message for Mondays and Tuesdays
+if (day.getDay() === 1 || day.getDay() === 2){
+    document.getElementById('message').textContent = 
+    `Come join us for chamber meet and greet Wednesday at 7:00!`
+}
+
 //create year
 document.getElementById('yearspan').textContent = year;
 
