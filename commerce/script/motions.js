@@ -20,6 +20,9 @@ document.getElementById('currentDate').textContent = `${today},
 if (day.getDay() === 1 || day.getDay() === 2){
     document.getElementById('message').textContent = 
     `Come join us for chamber meet and greet Wednesday at 7:00!`
+}else{
+    document.getElementById('message').hidden() = true;
+    
 }
 
 //create year
