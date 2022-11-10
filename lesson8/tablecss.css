@@ -1,0 +1,27 @@
+table{
+    text-align: center;
+    margin: auto auto;
+}
+th{
+    background-color: rgb(35, 67, 137);
+}
+td{
+    padding: 5px;
+}
+th:nth-child(2){
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: cornflowerblue;
+}
+tr:nth-child(odd){
+    background-color: blue;
+}
+.highlight{
+    background-color: rgba(255, 166, 0, 0.546);
+    font-weight: bold;
+}
+caption{
+    font-size: .75rem;
+    caption-side: bottom;
+}
