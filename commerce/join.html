@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us!</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <a href="index.html"><img src="images/1532178198.svg" alt="logo"></a>
+            <section class="titles">
+                <h2>Nampa</h2>
+                <hr>
+                <h3>Chamber of Commerce</h3>
+            </section>
+            <section class="socials">
+                <a href="https://facebook.com"><img class='facebook' src="images/placeholder-image.png" alt="the facebook logo"></a>
+                <a href="https://indeed.com"><img src="images/placeholder-image.png" alt="indeed"></a>
+            </section>
+            <nav>
+                <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href='#'>Discover</a></li>
+                    <li><a href='#'>Directory</a></li>
+                    <li><a href='join.html'>Join</a></li>
+                    <li><a href='#'>Contact</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>New Member Information</legend>
+                <label>First Name *<input type="text" name="fname" required></label>
+                <label>Last Name * <input type="text" name="lname" required></label>
+                <label>Title <input type="text" name="title"></label>
+                <label>Email *<input type="email" placeholder="example@gmail.com" required></label>
+                <label>Phone Number <input type="tel" name="pnumber" required></label>
+                <label>Business Name <input type="text" name="busname" required></label>
+                <label>Membership Level
+                    <select name="membership">
+                        <option value="">Select your Membership Level</option>
+                        <option value="NP">Non-Profit (No fee)</option>
+                        <option value="bronze">Bronze Membership ($30)</option>
+                        <option value="silver">Silver Membership ($60)</option>
+                        <option value="gold">Gold Membership ($100)</option>
+                    </select>
+                </label>
+                <label id="busdes">Business Description <input type="text" name="busdes"></label>
+                <input type="hidden" id="date/time" name="date/time">
+            </fieldset>
+            <input type="submit" value="Become a Member" class="submitBtn">
+        </form>
+    </main>
+</body>
+<script src="script/motions.js"></script>
+</html>
