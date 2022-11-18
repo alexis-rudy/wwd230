@@ -3,7 +3,6 @@
 .join{
     /* display: grid;
     grid-template-columns: repeat(3, 1fr); */
-    
     text-align: left;
 }
 form fieldset{
@@ -13,9 +12,6 @@ form fieldset{
 p{
     width: fit-content;
     grid-row: 2;
-}
-.joinSec{
-    grid-column: 3;
 }
 nav{
     background-color: rgba(9, 155, 9, 0.5);
@@ -33,10 +29,21 @@ nav ul li a {
     
 }
 #busdes{
-    width: 50rem;
+    width: 30rem;
     height: 100px;
 }
+}
+form fieldset{
+    margin: 2rem 0;
+    text-align: left;
+    padding: .5rem 2%;
+}
+form fieldset label{
+    display: block;
+    margin: .7rem;
+}
 .submitBtn{
+    size: 1.2rem;
     background-color: green;
     border: none;
     padding: .75rem 1.5rem;
@@ -44,5 +51,4 @@ nav ul li a {
     width: 90%;
     max-width: 20rem;
     color: white;
-}
 }

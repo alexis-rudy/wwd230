@@ -47,5 +47,15 @@ footer #emnum{
     padding-top: 20px;
 }
 /*Join Page*/
+.join{
+    display: block;
+}
+#busdes{
+    display: block;
+}
+form fieldset{
+    margin: 2rem 0;
+    padding: .5rem 2%;
+}
 
 }
