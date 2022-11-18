@@ -1,6 +1,8 @@
 @media only screen and (min-width: 64rem){
+/*Home page*/
 nav{
     background-color: rgba(9, 155, 9, 0.5);
+    margin: 0 0 0 auto;
 }
 nav ul#primaryNav{
     display: flex;
@@ -45,5 +47,38 @@ main #news{
 main #spotlight{
     grid-column: 3/4;
     grid-row: 1/4;
+}
+/*Join page*/
+.join{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    
+    text-align: left;
+}
+form fieldset{
+    margin: 0 0;
+    grid-column: 1/3;
+}
+p{
+    width: fit-content;
+    grid-row: 2;
+}
+.joinSec{
+    grid-column: 3;
+}
+/*Thanks page*/
+.thanksm{
+    display: block;
+}
+.thanks{
+    border: 2px solid green;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+h1{
+    margin-top: 68px;
 }
 }

@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
-    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/join.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -34,30 +34,31 @@
             </nav> 
         </div>
     </header>
-    <main>
+    <main class="join">
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>New Member Information</legend>
-                <label>First Name *<input type="text" name="fname" required></label>
-                <label>Last Name * <input type="text" name="lname" required></label>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
                 <label>Title <input type="text" name="title"></label>
-                <label>Email *<input type="email" placeholder="example@gmail.com" required></label>
-                <label>Phone Number <input type="tel" name="pnumber" required></label>
-                <label>Business Name <input type="text" name="busname" required></label>
+                <label>Email* <input type="email" placeholder="example@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" name="pnumber" required></label>
+                <label>Business Name* <input type="text" name="busname" required></label>
                 <label>Membership Level
                     <select name="membership">
-                        <option value="">Select your Membership Level</option>
+                        <option value="">Select Desired Membership Level</option>
                         <option value="NP">Non-Profit (No fee)</option>
                         <option value="bronze">Bronze Membership ($30)</option>
                         <option value="silver">Silver Membership ($60)</option>
                         <option value="gold">Gold Membership ($100)</option>
                     </select>
                 </label>
-                <label id="busdes">Business Description <input type="text" name="busdes"></label>
+                <label>Business Description <input type="text" id="busdes" name="busdes"></label>
                 <input type="hidden" id="date/time" name="date/time">
+                <input type="submit" value="Become a Member" class="submitBtn">
             </fieldset>
-            <input type="submit" value="Become a Member" class="submitBtn">
         </form>
+        <p>* indicates a required entry.</p>
     </main>
 </body>
 <script src="script/motions.js"></script>
