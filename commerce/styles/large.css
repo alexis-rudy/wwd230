@@ -4,6 +4,9 @@ nav{
     background-color: rgba(9, 155, 9, 0.5);
     margin: 0 0 0 auto;
 }
+.logo{
+    width: 9rem;
+}
 nav ul#primaryNav{
     display: flex;
     justify-content: flex-start;
@@ -23,6 +26,8 @@ main{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+    width: 100%;
 }
 main #event{
     grid-column: 1/2;

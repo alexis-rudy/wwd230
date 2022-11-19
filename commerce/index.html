@@ -14,15 +14,15 @@
 <body>
     <header>
         <div class="top">
-        <a href="index.html"><img src="images/real_logo.png" alt="logo"></a>
+        <a href="index.html"><img class="logo" src="images/real_logo.webp" alt="logo"></a>
         <section class="titles">
             <h2>Nampa</h2>
             <hr>
             <h3>Chamber of Commerce</h3>
         </section>
         <section class="socials">
-            <a href="https://facebook.com"><img class='facebook' src="images/placeholder-image.png" alt="the facebook logo"></a>
-            <a href="https://indeed.com"><img src="images/placeholder-image.png" alt="indeed"></a>
+            <a href="https://facebook.com"><img class='facebook' src="images/icons8-facebook-f.svg" alt="the facebook logo"></a>
+            <a href="https://indeed.com"><img src="images/icons8-indeed.svg" alt="indeed"></a>
         </section>
         <nav>
             <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
@@ -38,15 +38,27 @@
         <section class="date"><span id="message"></span></section>
     </header>
     <main>
-        <div id="event"><img src="images/placeholder-image.png" alt="events"></div>
-        <div id="weather"><img src="images/image-from-rawpixel-id-6624359-png.png" alt="weather"></div>
-        <div id="join"><img src="images/placeholder-image.png" alt="join"></div>
-        <div id="hero"><img src="images/wdd230-org.jpg" alt="hero"></div>
-        <div id="news"><img src="images/placeholder-image.png" alt="newsr"></div>
+        <div id="event"><img src="images/red dot.jpg" alt="events"></div>
+        <div id="weather">
+            <h4>Weather</h4>
+            <h5><span id="temp"></span>&#176;F</h5>
+            <img src="images/image-from-rawpixel-id-6624359-png.png" alt="weather">
+            <hr>
+            <h5>Wind Speed: <span id="wind_speed"></span> m/hr</h5>
+            <h5>Wind Chill: <span id="wind_chill"></span> &#176;F</h5>
+        </div>
+        <div id="join"><img src="images/lake ecoli sunset.jpg" alt="join"></div>
+        <div id="hero">
+            <picture>
+                <img src="images/train_depot500_l.jpg" alt="hero" srcset="images/train_depot500_m.jpg 640px,
+                images/train_depot750_l.jpg 1023px">
+            </picture>
+        </div> <!--This one!!-->
+        <div id="news"><img src="images/nampa_sign.jpeg" alt="newsr"></div>
         <section id="spotlight">
-            <div id="sl1"><img src="images/placeholder-image.png" alt="news"></div>
-            <div id="sl2"><img src="images/placeholder-image.png" alt="news"></div>
-            <div id="sl3"><img src="images/placeholder-image.png" alt="news"></div>
+            <div id="sl1"><img src="images/Nampa_Historic_District.jpg" alt="news"></div>
+            <div id="sl2"><img src="images/E_H_Dewey_Stores_(Nampa,_Idaho).jpg" alt="news"></div>
+            <div id="sl3"><img src="images/Post_Office_(Nampa,_Idaho).jpg" alt="news"></div>
         </section>
     </main>
     <footer>
@@ -70,5 +82,6 @@
         </div>
     </footer> 
     <script src="script/motions.js"></script>
+    <script src="script/windchill.js"></script>
 </body>
 </html>
