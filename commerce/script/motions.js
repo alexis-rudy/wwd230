@@ -42,3 +42,6 @@ let x = document.getElementById('hamBtn');
 x.onclick = toggleMenu;
 
 //change the button to a x when dropdown is open
+
+
+

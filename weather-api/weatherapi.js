@@ -1,7 +1,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Nampa&appid=93a20289158fa33d5ee7312e3af01861';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&appid=93a20289158fa33d5ee7312e3af01861';
 
 async function apiFetch() {
     try {

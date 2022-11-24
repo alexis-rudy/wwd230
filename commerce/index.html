@@ -7,9 +7,9 @@
         <title>Nampa Chamber of Commerce</title>
         <meta name="description" content="The Chamber of Commerce for Nampa, Idaho is dedicated to creating a space where all businesses-local and bigger-can develop successfully.">
         <link rel="shortcut icon" href="favicon.ico">
-        <link href="styles/small.css" rel="stylesheet" media="print">
-        <link href="styles/medium.css" rel="stylesheet" media="print">
-        <link href="styles/large.css" rel="stylesheet" media="print">
+        <link href="styles/small.css" rel="stylesheet">
+        <link href="styles/medium.css" rel="stylesheet">
+        <link href="styles/large.css" rel="stylesheet">
     </head>
 <body>
     <header>
@@ -42,7 +42,8 @@
         <div id="weather">
             <h4>Weather</h4>
             <h5><span id="temp"></span>&#176;F</h5>
-            <img src="images/image-from-rawpixel-id-6624359-png.png" alt="weather">
+            <img src="" id="weather_img" alt="">
+            <h5><span id="conditions"></span></h5>
             <hr>
             <h5>Wind Speed: <span id="wind_speed"></span> m/hr</h5>
             <h5>Wind Chill: <span id="wind_chill"></span> &#176;F</h5>
@@ -82,6 +83,6 @@
         </div>
     </footer> 
     <script src="script/motions.js"></script>
-    <script src="script/windchill.js"></script>
+    <script src="script/weather.js"></script>
 </body>
 </html>
