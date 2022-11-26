@@ -1,0 +1,43 @@
+body{
+    background-color: plum;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+    margin: 0 auto;
+}
+.cards h1{
+    size: 2rem;
+}
+section{
+    background-color:lemonchiffon;
+    border-radius: 10px;
+    width: 75%;
+}
+footer{
+    background-color: rgb(5, 178, 5);
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+@media only screen and (min-width: 40rem){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 64rem){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section{
+        
+    }
+}

@@ -128,3 +128,17 @@ form fieldset label{
 h1{
     margin-top: 68px;
 }
+
+/*Directory*/
+.buttons{
+    display: block;
+    size: 2rem;
+    padding-top: 10px;
+}
+.directory{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.buscards{
+    background-color: gray;
+}

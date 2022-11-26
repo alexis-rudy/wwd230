@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Directory</title>
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top">
+        <a href="index.html"><img class="logo" src="images/real_logo.webp" alt="logo"></a>
+        <section class="titles">
+            <h2>Nampa</h2>
+            <hr>
+            <h3>Chamber of Commerce</h3>
+        </section>
+        <section class="socials">
+            <a href="https://facebook.com"><img class='facebook' src="images/icons8-facebook-f.svg" alt="the facebook logo"></a>
+            <a href="https://indeed.com"><img src="images/icons8-indeed.svg" alt="indeed"></a>
+        </section>
+        <nav>
+            <button id="hamBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href='#'>Discover</a></li>
+                <li><a href='directory.html'>Directory</a></li>
+                <li><a href='join.html'>Join</a></li>
+                <li><a href='#'>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+        <section class="date"><span id="currentDate"></span></section>
+        <section class="date"><span id="message"></span></section>
+    </header>
+
+    <main>
+        <div class="buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+        <hr>
+        <div class="directory">
+            <div class="buscards"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="upper">
+            <img src="images/real_logo.png" alt="logo">
+            <section id="address">
+                <h3>Nampa Chamber of Commerce</h3>
+                <p>111 W Starview Ct</p>
+                <p>Nampa, Idaho 83686</p>
+            </section>
+            <section id="emnum">
+                <a href="#">info@nampacc.com</a>
+                <p>555-555-5555</p>
+                <p>Location Map</p>
+            </section>
+            </div>
+        <hr>
+        <div>
+            &copy; <span id="yearspan"></span> | Alexis Rudy |
+            WDD 230 Project | Last Updated: <span id="lastmod"></span>
+        </div>
+    </footer>
+    <script src="script/motions.js"></script>
+    <script src="script/cards.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+{
+"companies" : [
+    { 
+      "name": "Mondaes",
+      "address": "1404 1st St S, Nampa, Id 83686", 
+      "phone": "(208) 965-4703",
+      "icon": "../images/puffy.png",
+      "membership": "Bronze", 
+      "site": "https://www.mondaes.com"
+    },
+    {
+        "name": "Nampa Train Depot Museum",
+        "address": "1200 Front St, Nampa, ID 83651",
+        "phone": "(208) 467-7611",
+        "icon": "../images/train.png",
+        "membership": "Gold",
+        "site": "https://canyoncountyhistory.com/nampa-train-depot"
+    },
+    {
+        "name": "Brick 29 Bistro",
+        "address": "320 11th Ave S Suite#300, Nampa, ID 83651",
+        "phone": "(208) 468-0029",
+        "icon": "../images/brick.png",
+        "membership": "Gold",
+        "site": "https://www.brick29.com"
+    },{
+        "name": "Holy Cow Idaho!",
+        "address": "1226 1st St S, Nampa, ID 83651",
+        "phone": "(208) 965-8015",
+        "icon": "../images/holy_cow.jpg",
+        "membership": "Silver",
+        "site": "https://holycowidaho.com"
+    },{
+        "name": "The Egg Factory",
+        "address": "820 Caldwell Blvd, Nampa ID 83651",
+        "phone": "(208) 466-2728",
+        "icon": "../images/eggf.png",
+        "membership": "Silver",
+        "site": "http://www.eggfactorycafe.com/"
+    },{
+        "name": "Real Deals",
+        "address": "616 12th Ave Rd, Nampa, ID 83686",
+        "phone": "(208) 271-7300",
+        "icon": "../images/real_deals.png",
+        "membership": "Bronze",
+        "site": "https://realdeals.net"
+    },{
+        "name": "Nampa Reel Theatre",
+        "address": "2104 Caldwell Blvd, Nampa, ID 83651",
+        "phone": "(208) 377-2620",
+        "icon": "../images/reeltheatre.png",
+        "membership": "Bronze",
+        "site": "https://www.reeltheatre.com"
+    },{
+        "name": "Nampa Bowl",
+        "address": "485 Caldwell Blvd, Nampa, ID 83651",
+        "phone": "(208) 466-0881",
+        "icon": "../images/bowling.png",
+        "membership": "Bronze",
+        "site": "https://www.nampabowl.com"
+    },{
+        "name": "Rollerdrome Skating Rink",
+        "address": "1910th Ave S, Nampa, ID 83651",
+        "phone": "(208) 466-9905",
+        "icon": "../images/skates.png",
+        "membership": "Silver",
+        "site": "https://namparollerdrome.com"
+    }
+
+]
+}
