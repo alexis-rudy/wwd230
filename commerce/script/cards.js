@@ -13,10 +13,10 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");}
 
-const url = 'data.json';
+const file = 'data.json';
 const cards = document.querySelector('.buscards');
 
-fetch(url)
+fetch(file)
     .then(function(response){
         return response.json();
     })
