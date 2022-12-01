@@ -64,4 +64,8 @@ form fieldset{
     padding: .5rem 2%;
 }
 
+/*Discover Page*/
+.discovery img{
+    padding-left: 10px;
+}
 }

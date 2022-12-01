@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
 a:hover{
     cursor: pointer;
 }
@@ -14,6 +15,7 @@ header{
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Magra', sans-serif;
 }
 header .top{
     display: flex;
@@ -79,6 +81,7 @@ nav ul.open{
 main{
     display: block;
     text-align: center;
+    font-family: 'Magra', sans-serif;
 }
 main img{
     width: 100%;
@@ -91,6 +94,7 @@ main img{
 footer{
     background-color: rgb(2, 97, 2);
     text-align: center;   
+    font-family: 'Magra', sans-serif;
 }
 
 /*Join Us page*/
@@ -141,4 +145,38 @@ h1{
 }
 .buscards{
     background-color: gray;
+}
+/*discover*/
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.demographics{
+    background-color: antiquewhite;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.discovery{
+    background-color:antiquewhite;
+    text-align: left;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.discovery img{
+    width: 93%;
+    align-self: center;
+    padding-left: 20px;
+}
+.discovery h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.discovery p{
+    padding: 30px;
+}
+.timesvisit{
+    font-size: 1.1rem;
 }
